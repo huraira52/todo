@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #2f74c0; */
+  font-family: "Neucha", cursive;
+}
+
+.heading {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 30px 0;
+  color: black;
+  z-index: 1;
+  text-align: center;
+  
+  
+}
+.heading2{
+  text-transform: uppercase;
+  font-size: 30px;
+  color: black; 
+  margin: 20px;
+}
+.btn2{
+  background-color:#41a3a0;
+  /* justify-content: space-evenly; */
+  width:160px;
+  height:32px;
+  margin-right: 50px;
+  margin-left: 50px; 
+}
+
+@media (max-width: 800px) {
+  .heading {
+    margin: 15px 0;
+    font-size: 35px;
+    
+  }
+}
